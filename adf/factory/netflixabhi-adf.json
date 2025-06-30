@@ -1,0 +1,9 @@
+{
+	"name": "netflixabhi-adf",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "54d18def-7858-4c67-9480-6dbb5a4e2811",
+		"tenantId": "b2f57371-782c-4a40-84df-9f93d03cdccd"
+	}
+}
