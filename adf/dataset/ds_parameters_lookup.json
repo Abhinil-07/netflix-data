@@ -1,5 +1,5 @@
 {
-	"name": "ds_lookupjson",
+	"name": "ds_parameters_lookup",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_lookupfromgithub",
@@ -10,10 +10,9 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "lookup.json"
+				"relativeUrl": "silver_lookup"
 			}
 		},
 		"schema": {}
-	},
-	"type": "Microsoft.DataFactory/factories/datasets"
+	}
 }
