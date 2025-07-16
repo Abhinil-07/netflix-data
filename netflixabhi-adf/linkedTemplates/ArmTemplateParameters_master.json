@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "netflixabhi-adf"
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_databricks_properties_typeProperties_existingClusterId": {
+			"value": "0701-044804-1vgmsgb9"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://netflixabhi.dfs.core.windows.net/"
+		},
+		"ls_github_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"ls_lookupfromgithub_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/Abhinil-07/netflix-data/refs/heads/main/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
