@@ -1,13 +1,13 @@
 {
 	"name": "ls_lookupfromgithub",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://raw.githubusercontent.com/Abhinil-07/netflix-data/refs/heads/main/lookup.json",
+			"url": "https://raw.githubusercontent.com/Abhinil-07/netflix-data/refs/heads/main/",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
